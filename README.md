@@ -3,7 +3,7 @@ LongestPHP
 
 The script `finder.php` finds the longest function-, class- and interface-names. I also added the longest constant.
 
-[Runned with 100+ PHP Versions, including hhvm](http://3v4l.org/XgVqY)
+[Results of every all PHP versions from 5.0 to 7, including hhvm](http://3v4l.org/2fO4L)
 
 *Example output of the script `finder.php` below*
 
