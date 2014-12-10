@@ -25,7 +25,7 @@ $data = [
 header('Content-Type: text/plain');
 
 echo '**PHP Version: '.PHP_VERSION.'**';
-echo "\n";
+echo "\n\n";
 echo '**OS: '.PHP_OS.'**';
 
 foreach ($data as $name => $array) {
@@ -33,6 +33,6 @@ foreach ($data as $name => $array) {
     echo "\n\n# $name\n\n";
     foreach ($array as $key => $value) {
         $len = strlen($value);
-        echo "[$len] $value\n";
+        echo "* [$len] $value\n";
     }
 }
