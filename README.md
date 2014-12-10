@@ -65,3 +65,7 @@ The script `finder.php` finds the longest function-, class- and interface-names.
 * [13] OuterIterator
 * [12] Serializable
 * [11] ArrayAccess
+
+---
+
+*inspired by [Quotation/LongestCocoa](https://github.com/Quotation/LongestCocoa)*
