@@ -15,58 +15,58 @@ The script `finder.php` finds the longest function-, class- and interface-names.
 
 # functions
 
-* [38] xml_set_processing_instruction_handler
-* [38] intlcal_set_minimal_days_in_first_week
-* [38] intltz_create_time_zone_id_enumeration
-* [38] intlcal_get_minimal_days_in_first_week
-* [37] mcrypt_module_is_block_algorithm_mode
-* [37] intlcal_get_keyword_values_for_locale
-* [37] intlcal_set_repeated_wall_time_option
-* [37] mcrypt_module_get_supported_key_sizes
-* [37] date_interval_create_from_date_string
-* [37] intlcal_get_repeated_wall_time_option
+* [55] sodium_crypto_sign_keypair_from_secretkey_and_publickey
+* [54] sodium_crypto_box_keypair_from_secretkey_and_publickey
+* [52] sodium_crypto_pwhash_scryptsalsa208sha256_str_verify
+* [48] sodium_crypto_aead_chacha20poly1305_ietf_decrypt
+* [48] sodium_crypto_aead_chacha20poly1305_ietf_encrypt
+* [47] sodium_crypto_aead_chacha20poly1305_ietf_keygen
+* [45] sodium_crypto_pwhash_scryptsalsa208sha256_str
+* [43] sodium_crypto_aead_chacha20poly1305_decrypt
+* [43] sodium_crypto_aead_chacha20poly1305_encrypt
+* [43] sodium_crypto_sign_ed25519_pk_to_curve25519
 
 
 # constants
 
-* [43] MYSQLI_TRANS_START_WITH_CONSISTENT_SNAPSHOT
-* [39] XML_ERROR_ATTRIBUTE_EXTERNAL_ENTITY_REF
-* [38] MYSQLI_SERVER_QUERY_NO_GOOD_INDEX_USED
-* [35] ICONV_MIME_DECODE_CONTINUE_ON_ERROR
-* [35] CURLCLOSEPOLICY_LEAST_RECENTLY_USED
-* [34] FILTER_SANITIZE_FULL_SPECIAL_CHARS
-* [34] STREAM_CRYPTO_METHOD_SSLv23_CLIENT
-* [34] MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH
-* [34] STREAM_CRYPTO_METHOD_SSLv23_SERVER
-* [34] XML_ERROR_EXTERNAL_ENTITY_HANDLING
+* [62] SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_INTERACTIVE
+* [62] SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_MEMLIMIT_INTERACTIVE
+* [60] SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_SENSITIVE
+* [60] SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_MEMLIMIT_SENSITIVE
+* [51] SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_SALTBYTES
+* [51] SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_STRPREFIX
+* [50] SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_NSECBYTES
+* [50] SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_NPUBBYTES
+* [49] SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_KEYBYTES
+* [47] SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_ABYTES
 
 
 # classes
 
 * [31] RecursiveCallbackFilterIterator
-* [29] ImagickPixelIteratorException
-* [26] IntlCodePointBreakIterator
-* [26] IntlRuleBasedBreakIterator
 * [26] RecursiveDirectoryIterator
 * [26] ReflectionFunctionAbstract
+* [26] ReflectionIntersectionType
+* [26] IntlRuleBasedBreakIterator
+* [26] IntlCodePointBreakIterator
 * [25] RecursiveIteratorIterator
-* [24] BadFunctionCallException
-* [24] RecursiveCachingIterator
+* [24] ClosedGeneratorException
 * [24] DOMProcessingInstruction
+* [24] BadFunctionCallException
 
 
 # interfaces
 
+* [38] SessionUpdateTimestampHandlerInterface
 * [23] SessionHandlerInterface
 * [18] SessionIdInterface
-* [17] RecursiveIterator
 * [17] IteratorAggregate
 * [17] DateTimeInterface
-* [16] SeekableIterator
+* [17] RecursiveIterator
 * [16] JsonSerializable
+* [16] SeekableIterator
+* [13] DOMParentNode
 * [13] OuterIterator
-* [12] Serializable
-* [11] ArrayAccess
 
 ---
 
